@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Sans-Serif;
+}
+
+/* nav*/
+.container.pad {
+  padding: 80px 0;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background: #BBCED1;
+  padding: 1% 0;
+  /* padding-top: 6%;
+  padding-bottom: 2%; */
+}
+
+.navbar-brand img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 30px;
+}
+
+/*.navbar-toggler {
+  outline: none;
+}*/
+.login {
+  border: none;
+  color: black;
+}
+
+.signup {
+  border: none;
+  color: black;
+  background: #C19A6F;
+}
+
+/*.navbar-nav li a {
+  color: #fff;
+  font-weight: 600;
+}*/
+
+/* banner section*/
+#banner {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-image: linear-gradient(to bottom, #BBCED1, #E0EEFE);
+  /*background: #BBCED1;*/
+}
+
+.p-banner {
+  margin-top: 4%;
+}
+
+.btn-banner {
+  margin-top: 12%;
+}
+
+/* about */
+.productivity {
+  background: #F0D0AE;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.about {
+  margin-bottom: 10%;
+}
+
+.img-pad {
+  margin-bottom: 10%;
+}
+
+.explore {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-learnmore {
+  border: 1px solid #55848D;
+  color: #55848D;
+  background: #FAFAFA;
+}
+
+/* services*/
+.title {
+  text-align: center;
+}
+
+.service-section {
+  margin: 20% 0;
+  align-items: center;
+}
+
+.second-img {
+  margin-bottom: 6%;
+}
+
+#services h3 {
+  color: #41717d;
+}
+
+/* icon section*/
+#icon {
+  background: #BBCED1;
+}
+
+.icon-text {
+  margin-bottom: 6%;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* testimonial*/
+
+.testimonial {
+  margin-bottom: 4%;
+}
+
+.testimonial-img {
+  margin-bottom: 20%;
+}
+
+.contact {
+  align-items: center;
+}
+
+.btn-brown {
+  background: #C19A6F;
+}
+
+/*footer*/
+#footer {
+  background: #BBCED1;
+  height: 100%;
+}
